@@ -55,3 +55,12 @@ class ImagePreprocessing:
         image = ImagePreprocessing.REmove_noise(image)
         image = ImagePreprocessing.binarization(image)
         return image
+    
+
+
+if __name__ == "__main__":
+    input_image_path = "images/page_30.jpg"
+    output_image_path = "images/preprocessed_30.jpg"
+    preprocessed_image = ImagePreprocessing.preprocess_image(input_image_path)
+    cv2.imwrite(output_image_path, preprocessed_image)
+    print(f"Preprocessed image saved to {output_image_path}")
