@@ -1,0 +1,10 @@
+opencv-python-headless
+numpy
+Pillow
+pytesseract
+spacy
+presidio-analyzer
+presidio-image-redactor
+python-magic
+scikit-image
+streamlit

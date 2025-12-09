@@ -1,0 +1,18 @@
+[project]
+name = "document-pii-extraction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.5",
+    "opencv-python-headless>=4.11.0.86",
+    "pillow>=12.0.0",
+    "presidio-analyzer>=2.2.360",
+    "presidio-image-redactor>=0.0.57",
+    "pytesseract>=0.3.13",
+    "python-magic>=0.4.27",
+    "scikit-image>=0.25.2",
+    "spacy>=3.8.11",
+    "streamlit>=1.52.1",
+]
