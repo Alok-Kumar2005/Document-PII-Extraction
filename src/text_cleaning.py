@@ -1,5 +1,9 @@
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+
 import re
-from ocr import OCREngine
+from src.ocr import OCREngine
 
 class TextCleaner:
     @staticmethod
