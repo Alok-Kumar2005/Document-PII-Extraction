@@ -23,7 +23,7 @@ class OCREngine:
                 raise ValueError("Gemini API key is required for LLM-based OCR")
             
             self.llm = ChatGoogleGenerativeAI(
-                model="gemini-2.5-flash-image",
+                model="gemini-2.5-flash",
                 google_api_key=gemini_api_key,
                 temperature=0
             )
