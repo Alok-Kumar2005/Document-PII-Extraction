@@ -8,3 +8,6 @@ presidio-image-redactor
 python-magic
 scikit-image
 streamlit
+langchain
+langchain-google-genai
+langchain-core
